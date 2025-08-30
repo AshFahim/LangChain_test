@@ -1,4 +1,4 @@
-# AI-Engineer-Level-1-Assessment
+# LangChain_Test
 
 This is a **FastAPI-based Retrieval-Augmented Generation (RAG)** system that supports **Bangla** and **English** queries. It retrieves semantically relevant answers from a Bangla HSC book PDF and generates grounded responses using a local **Mistral LLM** via **Ollama**.
 
@@ -18,7 +18,7 @@ This is a **FastAPI-based Retrieval-Augmented Generation (RAG)** system that sup
 ## 🗂️ Folder Structure
 
 ```
-AI-Engineer-Level-1-Assessment/
+LangChain_Test/
 ├── app.py                     # FastAPI application with RAG implementation
 ├── document_loader.py         # PDF loading and text chunking logic
 ├── vector_store.py           # FAISS vector store management
@@ -148,8 +148,8 @@ pip install -r requirements.txt
 ### 1️⃣ Clone & Setup
 
 ```bash
-git clone https://github.com/your-username/rag-bangla-fastapi.git
-cd rag-bangla-fastapi
+git clone https://github.com/your-username/langchain-test.git
+cd langchain-test
 python -m venv .venv
 source env/bin/activate  # Windows: .\env\Scripts\activate
 
